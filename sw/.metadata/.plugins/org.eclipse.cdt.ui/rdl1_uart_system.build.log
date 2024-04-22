@@ -1,0 +1,15 @@
+20:44:58 **** Build of configuration Debug for project rdl1_uart_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 57907 C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1_platform/export/rdl1_platform/rdl1_platform.xpfm standalone_domain C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1_uart_system/Debug/system.bif
+xpfm path is not valid
+    invoked from within
+"::tcf::eval -progress {apply {{msg} {puts $msg}}} {tcf_send_command tcfchan#0 xsdb eval s es {{::scw::generate_bif -xpfm C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1_platform/export/rdl1_platform/rdl1_platform.xpfm -domains standalone_domain -bifpath C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1_uart_system/Debug/system.bif}}}"
+    (procedure "::tcf::send_command" line 4)
+    invoked from within
+"tcf send_command $::xsdb::curchan xsdb eval s es [list "::scw::generate_bif $GENERATE_BIF_ARGS"]"
+    (file "C:/Xilinx/Vitis/2020.2\scripts\vitis\util\generate_system_bif.tcl" line 25)
+make: *** [makefile:38: package] Error 1
+
+20:45:01 Build Finished (took 2s.86ms)
+

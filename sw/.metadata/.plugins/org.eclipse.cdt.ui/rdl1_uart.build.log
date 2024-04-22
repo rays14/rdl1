@@ -1,0 +1,18 @@
+20:44:57 **** Build of configuration Debug for project rdl1_uart ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1_platform/export/rdl1_platform/sw/rdl1_platform/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c:50:10: fatal error: xil_printf.h: No such file or directory
+   50 | #include "xil_printf.h"
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+make[1]: *** [src/subdir.mk:26: src/helloworld.o] Error 1
+make: *** [makefile:34: all] Error 2
+
+20:44:58 Build Finished (took 1s.15ms)
+

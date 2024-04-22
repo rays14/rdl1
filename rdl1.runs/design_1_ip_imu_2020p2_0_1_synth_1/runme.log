@@ -1,0 +1,304 @@
+
+*** Running vivado
+    with args -log design_1_ip_imu_2020p2_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ip_imu_2020p2_0_1.tcl
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source design_1_ip_imu_2020p2_0_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/14086/Documents/topper/projs/git/github/rtl/projs/ip_repo'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+Command: synth_design -top design_1_ip_imu_2020p2_0_1 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26548
+WARNING: [Synth 8-6901] identifier 'dataReady' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:636]
+WARNING: [Synth 8-6901] identifier 'lock' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:636]
+WARNING: [Synth 8-6901] identifier 'preamble' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:637]
+WARNING: [Synth 8-6901] identifier 'idx' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:638]
+WARNING: [Synth 8-6901] identifier 'yaw' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:639]
+WARNING: [Synth 8-6901] identifier 'pitch' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:640]
+WARNING: [Synth 8-6901] identifier 'roll' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:641]
+WARNING: [Synth 8-6901] identifier 'accelX' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:642]
+WARNING: [Synth 8-6901] identifier 'accelY' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:643]
+WARNING: [Synth 8-6901] identifier 'accelZ' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:644]
+WARNING: [Synth 8-6901] identifier 'mi' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:645]
+WARNING: [Synth 8-6901] identifier 'mr' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:646]
+WARNING: [Synth 8-6901] identifier 'rsvd' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:647]
+WARNING: [Synth 8-6901] identifier 'cSum' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:648]
+WARNING: [Synth 8-6901] identifier 'ccCsum' is used before its declaration [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:649]
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1213.566 ; gain = 56.453
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_imu_2020p2_0_1' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_imu_2020p2_0_1/synth/design_1_ip_imu_2020p2_0_1.v:57]
+INFO: [Synth 8-6157] synthesizing module 'ip_imu_2020p2_v1_0' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0.v:4]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'ip_imu_2020p2_v1_0_S00_AXI' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:4]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+	Parameter ADDR_LSB bound to: 2 - type: integer 
+	Parameter OPT_MEM_ADDR_BITS bound to: 4 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'imu' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/src/imu.v:12]
+	Parameter BAUD_RATE bound to: 115200 - type: integer 
+	Parameter CLK_RATE bound to: 100000000 - type: integer 
+	Parameter BIT_CLK_CNT bound to: 868 - type: integer 
+	Parameter NUM_IMU_DATA bound to: 19 - type: integer 
+	Parameter DATA_SIZE bound to: 8 - type: integer 
+	Parameter PREAMBLE_0 bound to: 0 - type: integer 
+	Parameter PREAMBLE_1 bound to: 1 - type: integer 
+	Parameter DATA bound to: 2 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'uart_rx_if' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/src/serial_if.v:16]
+	Parameter BIT_CLK_CNT bound to: 868 - type: integer 
+	Parameter HALF_BIT_CLK_CNT bound to: 434 - type: integer 
+	Parameter IDLE bound to: 0 - type: integer 
+	Parameter START bound to: 1 - type: integer 
+	Parameter DATA bound to: 2 - type: integer 
+	Parameter STOP bound to: 3 - type: integer 
+	Parameter ERROR bound to: 4 - type: integer 
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/src/serial_if.v:67]
+INFO: [Synth 8-6155] done synthesizing module 'uart_rx_if' (1#1) [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/src/serial_if.v:16]
+INFO: [Synth 8-155] case statement is not full and has no default [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/src/imu.v:95]
+INFO: [Synth 8-6157] synthesizing module 'sticky_bit' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/src/my_ver_lib.v:80]
+	Parameter LEVEL bound to: 1 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'sticky_bit' (2#1) [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/src/my_ver_lib.v:80]
+INFO: [Synth 8-6157] synthesizing module 'ping_pong' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/src/ping_pong.v:10]
+	Parameter NUM_ELEMENTS bound to: 19 - type: integer 
+	Parameter DATA_SIZE bound to: 8 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'ping_pong' (3#1) [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/src/ping_pong.v:10]
+INFO: [Synth 8-6155] done synthesizing module 'imu' (4#1) [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/src/imu.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'ip_imu_2020p2_v1_0_S00_AXI' (5#1) [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0_S00_AXI.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'ip_imu_2020p2_v1_0' (6#1) [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ipshared/bb37/hdl/ip_imu_2020p2_v1_0.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_imu_2020p2_0_1' (7#1) [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_imu_2020p2_0_1/synth/design_1_ip_imu_2020p2_0_1.v:57]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1291.309 ; gain = 134.195
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 1310.191 ; gain = 153.078
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 1310.191 ; gain = 153.078
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 1310.191 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1386.355 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.100 . Memory (MB): peak = 1386.441 ; gain = 0.086
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:13 ; elapsed = 00:00:26 . Memory (MB): peak = 1386.441 ; gain = 229.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:13 ; elapsed = 00:00:26 . Memory (MB): peak = 1386.441 ; gain = 229.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:26 . Memory (MB): peak = 1386.441 ; gain = 229.328
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'imuState_reg' in module 'imu'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+              PREAMBLE_0 |                               00 |                               00
+              PREAMBLE_1 |                               01 |                               01
+                    DATA |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'imuState_reg' using encoding 'sequential' in module 'imu'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:28 . Memory (MB): peak = 1386.441 ; gain = 229.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	              152 Bit    Registers := 3     
+	               32 Bit    Registers := 19    
+	                8 Bit    Registers := 23    
+	                7 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 16    
++---Muxes : 
+	   2 Input  152 Bit        Muxes := 1     
+	   6 Input   32 Bit        Muxes := 2     
+	   2 Input   32 Bit        Muxes := 17    
+	  31 Input   32 Bit        Muxes := 16    
+	   6 Input    8 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 2     
+	   3 Input    8 Bit        Muxes := 3     
+	   6 Input    4 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 1     
+	   7 Input    3 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 2     
+	   3 Input    2 Bit        Muxes := 1     
+	   6 Input    1 Bit        Muxes := 8     
+	   2 Input    1 Bit        Muxes := 30    
+	   3 Input    1 Bit        Muxes := 22    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:39 . Memory (MB): peak = 1386.441 ; gain = 229.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:25 ; elapsed = 00:00:48 . Memory (MB): peak = 1386.441 ; gain = 229.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:25 ; elapsed = 00:00:48 . Memory (MB): peak = 1386.441 ; gain = 229.328
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:25 ; elapsed = 00:00:49 . Memory (MB): peak = 1395.586 ; gain = 238.473
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:54 . Memory (MB): peak = 1404.090 ; gain = 246.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:54 . Memory (MB): peak = 1404.090 ; gain = 246.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:54 . Memory (MB): peak = 1404.090 ; gain = 246.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:54 . Memory (MB): peak = 1404.090 ; gain = 246.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:55 . Memory (MB): peak = 1404.090 ; gain = 246.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:55 . Memory (MB): peak = 1404.090 ; gain = 246.977
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    14|
+|2     |LUT1   |     7|
+|3     |LUT2   |    45|
+|4     |LUT3   |   194|
+|5     |LUT4   |    69|
+|6     |LUT5   |    44|
+|7     |LUT6   |   268|
+|8     |MUXF7  |    48|
+|9     |FDCE   |    50|
+|10    |FDPE   |     8|
+|11    |FDRE   |  1197|
+|12    |FDSE   |     1|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:55 . Memory (MB): peak = 1404.090 ; gain = 246.977
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:51 . Memory (MB): peak = 1404.090 ; gain = 170.727
+Synthesis Optimization Complete : Time (s): cpu = 00:00:29 ; elapsed = 00:00:55 . Memory (MB): peak = 1404.090 ; gain = 246.977
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.032 . Memory (MB): peak = 1416.113 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 62 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1418.164 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+35 Infos, 15 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:36 ; elapsed = 00:01:10 . Memory (MB): peak = 1418.164 ; gain = 261.051
+INFO: [Common 17-1381] The checkpoint 'C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/design_1_ip_imu_2020p2_0_1_synth_1/design_1_ip_imu_2020p2_0_1.dcp' has been generated.
+WARNING: [Common 17-576] 'use_project_ipc' is deprecated. This option is deprecated and no longer used.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP design_1_ip_imu_2020p2_0_1, cache-ID = c8f05eeb5512ef98
+INFO: [Coretcl 2-1174] Renamed 6 cell refs.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/design_1_ip_imu_2020p2_0_1_synth_1/design_1_ip_imu_2020p2_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_ip_imu_2020p2_0_1_utilization_synth.rpt -pb design_1_ip_imu_2020p2_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 21 14:36:02 2024...

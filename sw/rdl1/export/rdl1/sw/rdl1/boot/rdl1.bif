@@ -1,0 +1,7 @@
+/*rdl1*/
+the_ROM_image:
+{
+  [bootloader]<rdl1/boot/fsbl.elf>
+   <bitstream> 
+  <elf,ps7_cortexa9_0>
+}

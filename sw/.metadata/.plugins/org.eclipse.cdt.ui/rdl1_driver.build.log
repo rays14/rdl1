@@ -1,0 +1,25 @@
+15:02:42 **** Incremental Build of configuration Debug for project rdl1_driver ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+'Building file: ../src/helloworld.c'
+'Invoking: ARM v7 gcc compiler'
+arm-none-eabi-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -IC:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/export/rdl1/sw/rdl1/standalone_domain/bspinclude/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: rdl1_driver.elf'
+'Invoking: ARM v7 gcc linker'
+arm-none-eabi-gcc -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,../src/lscript.ld -LC:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/export/rdl1/sw/rdl1/standalone_domain/bsplib/lib -o "rdl1_driver.elf"  ./src/helloworld.o ./src/platform.o ./src/pwm.o ./src/pwmr.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rdl1_driver.elf'
+' '
+'Invoking: ARM v7 Print Size'
+arm-none-eabi-size rdl1_driver.elf  |tee "rdl1_driver.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  56424	   2604	  22816	  81844	  13fb4	rdl1_driver.elf
+'Finished building: rdl1_driver.elf.size'
+' '
+
+15:02:43 Build Finished (took 1s.136ms)
+
