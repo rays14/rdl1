@@ -8144,3 +8144,9 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-413: Laun
 
 !ENTRY com.xilinx.sdk.utils 0 0 2024-04-23 11:19:58.280
 !MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-413: Launching Debugger_rdl1_driver-Default
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-04-23 12:15:28.546
+!MESSAGE XSCT Command: [disconnect tcfchan#17], Thread: Thread-2461
+
+!ENTRY com.xilinx.sdk.utils 0 0 2024-04-23 12:15:28.550
+!MESSAGE XSCT command with result: [disconnect tcfchan#17], Result: [null, ]. Thread: Thread-2461
