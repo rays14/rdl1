@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Sun Apr 21 14:34:29 2024" VIVADOVERSION="2020.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Tue Apr 23 11:10:57 2024" VIVADOVERSION="2020.2">
 
   <SYSTEMINFO ARCH="zynq" BOARD="digilentinc.com:zybo:part0:2.0" DEVICE="7z010" NAME="design_1" PACKAGE="clg400" SPEEDGRADE="-1"/>
 
@@ -1082,7 +1082,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="7" FULLNAME="/ip_pwm_2020p2_0" HWVERSION="1.0" INSTANCE="ip_pwm_2020p2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ip_pwm_2020p2" VLNV="user.org:user:ip_pwm_2020p2:1.0">
+    <MODULE COREREVISION="9" FULLNAME="/ip_pwm_2020p2_0" HWVERSION="1.0" INSTANCE="ip_pwm_2020p2_0" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ip_pwm_2020p2" VLNV="user.org:user:ip_pwm_2020p2:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -1271,7 +1271,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="7" FULLNAME="/ip_pwm_2020p2_1" HWVERSION="1.0" INSTANCE="ip_pwm_2020p2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ip_pwm_2020p2" VLNV="user.org:user:ip_pwm_2020p2:1.0">
+    <MODULE COREREVISION="9" FULLNAME="/ip_pwm_2020p2_1" HWVERSION="1.0" INSTANCE="ip_pwm_2020p2_1" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ip_pwm_2020p2" VLNV="user.org:user:ip_pwm_2020p2:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -1460,7 +1460,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="7" FULLNAME="/ip_pwm_2020p2_2" HWVERSION="1.0" INSTANCE="ip_pwm_2020p2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ip_pwm_2020p2" VLNV="user.org:user:ip_pwm_2020p2:1.0">
+    <MODULE COREREVISION="9" FULLNAME="/ip_pwm_2020p2_2" HWVERSION="1.0" INSTANCE="ip_pwm_2020p2_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ip_pwm_2020p2" VLNV="user.org:user:ip_pwm_2020p2:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -1649,7 +1649,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="7" FULLNAME="/ip_pwm_2020p2_3" HWVERSION="1.0" INSTANCE="ip_pwm_2020p2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ip_pwm_2020p2" VLNV="user.org:user:ip_pwm_2020p2:1.0">
+    <MODULE COREREVISION="9" FULLNAME="/ip_pwm_2020p2_3" HWVERSION="1.0" INSTANCE="ip_pwm_2020p2_3" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ip_pwm_2020p2" VLNV="user.org:user:ip_pwm_2020p2:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -1838,7 +1838,7 @@
         </BUSINTERFACE>
       </BUSINTERFACES>
     </MODULE>
-    <MODULE COREREVISION="7" FULLNAME="/ip_pwm_2020p2_4" HWVERSION="1.0" INSTANCE="ip_pwm_2020p2_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ip_pwm_2020p2" VLNV="user.org:user:ip_pwm_2020p2:1.0">
+    <MODULE COREREVISION="9" FULLNAME="/ip_pwm_2020p2_4" HWVERSION="1.0" INSTANCE="ip_pwm_2020p2_4" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="ip_pwm_2020p2" VLNV="user.org:user:ip_pwm_2020p2:1.0">
       <DOCUMENTS/>
       <ADDRESSBLOCKS>
         <ADDRESSBLOCK ACCESS="" INTERFACE="S00_AXI" NAME="S00_AXI_reg" RANGE="4096" USAGE="register"/>
@@ -2035,7 +2035,7 @@
       <PARAMETERS>
         <PARAMETER NAME="C_S00_AXI_DATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_S00_AXI_ADDR_WIDTH" VALUE="6"/>
-        <PARAMETER NAME="SAMPLING_COUNT" VALUE="10"/>
+        <PARAMETER NAME="SAMPLING_COUNT" VALUE="0"/>
         <PARAMETER NAME="Component_Name" VALUE="design_1_ip_pwmr_0_0"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
         <PARAMETER NAME="C_S00_AXI_BASEADDR" VALUE="0x43C50000"/>
@@ -2220,7 +2220,7 @@
       <PARAMETERS>
         <PARAMETER NAME="C_S00_AXI_DATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_S00_AXI_ADDR_WIDTH" VALUE="6"/>
-        <PARAMETER NAME="SAMPLING_COUNT" VALUE="10"/>
+        <PARAMETER NAME="SAMPLING_COUNT" VALUE="0"/>
         <PARAMETER NAME="Component_Name" VALUE="design_1_ip_pwmr_0_1"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
         <PARAMETER NAME="C_S00_AXI_BASEADDR" VALUE="0x43C60000"/>
@@ -2405,7 +2405,7 @@
       <PARAMETERS>
         <PARAMETER NAME="C_S00_AXI_DATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_S00_AXI_ADDR_WIDTH" VALUE="6"/>
-        <PARAMETER NAME="SAMPLING_COUNT" VALUE="10"/>
+        <PARAMETER NAME="SAMPLING_COUNT" VALUE="0"/>
         <PARAMETER NAME="Component_Name" VALUE="design_1_ip_pwmr_0_2"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
         <PARAMETER NAME="C_S00_AXI_BASEADDR" VALUE="0x43C70000"/>
@@ -2590,7 +2590,7 @@
       <PARAMETERS>
         <PARAMETER NAME="C_S00_AXI_DATA_WIDTH" VALUE="32"/>
         <PARAMETER NAME="C_S00_AXI_ADDR_WIDTH" VALUE="6"/>
-        <PARAMETER NAME="SAMPLING_COUNT" VALUE="10"/>
+        <PARAMETER NAME="SAMPLING_COUNT" VALUE="0"/>
         <PARAMETER NAME="Component_Name" VALUE="design_1_ip_pwmr_2_0"/>
         <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
         <PARAMETER NAME="C_S00_AXI_BASEADDR" VALUE="0x43C80000"/>
@@ -3928,14 +3928,14 @@
             <CONNECTION INSTANCE="axi_gpio_0" PORT="s_axi_aclk"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M10_ACLK"/>
             <CONNECTION INSTANCE="gpio_breakkout_0" PORT="clkIn"/>
+            <CONNECTION INSTANCE="axi_uartlite_0" PORT="s_axi_aclk"/>
+            <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M11_ACLK"/>
+            <CONNECTION INSTANCE="ip_imu_2020p2_0" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="ip_pwm_2020p2_0" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="ip_pwm_2020p2_1" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="ip_pwm_2020p2_2" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="ip_pwm_2020p2_3" PORT="s00_axi_aclk"/>
             <CONNECTION INSTANCE="ip_pwm_2020p2_4" PORT="s00_axi_aclk"/>
-            <CONNECTION INSTANCE="axi_uartlite_0" PORT="s_axi_aclk"/>
-            <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M11_ACLK"/>
-            <CONNECTION INSTANCE="ip_imu_2020p2_0" PORT="s00_axi_aclk"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="FCLK_RESET0_N" POLARITY="ACTIVE_LOW" SIGIS="rst" SIGNAME="processing_system7_0_FCLK_RESET0_N">
@@ -6271,14 +6271,14 @@
             <CONNECTION INSTANCE="axi_gpio_0" PORT="s_axi_aresetn"/>
             <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M10_ARESETN"/>
             <CONNECTION INSTANCE="gpio_breakkout_0" PORT="n_rstIn"/>
+            <CONNECTION INSTANCE="axi_uartlite_0" PORT="s_axi_aresetn"/>
+            <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M11_ARESETN"/>
+            <CONNECTION INSTANCE="ip_imu_2020p2_0" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="ip_pwm_2020p2_0" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="ip_pwm_2020p2_1" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="ip_pwm_2020p2_2" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="ip_pwm_2020p2_3" PORT="s00_axi_aresetn"/>
             <CONNECTION INSTANCE="ip_pwm_2020p2_4" PORT="s00_axi_aresetn"/>
-            <CONNECTION INSTANCE="axi_uartlite_0" PORT="s_axi_aresetn"/>
-            <CONNECTION INSTANCE="ps7_0_axi_periph" PORT="M11_ARESETN"/>
-            <CONNECTION INSTANCE="ip_imu_2020p2_0" PORT="s00_axi_aresetn"/>
           </CONNECTIONS>
         </PORT>
       </PORTS>

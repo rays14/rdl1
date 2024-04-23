@@ -1,7 +1,7 @@
 // Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-// Date        : Thu Apr 18 13:37:23 2024
+// Date        : Tue Apr 23 11:12:16 2024
 // Host        : LAPTOP-KMHA882Q running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode funcsim
 //               c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_pwm_2020p2_0_0/design_1_ip_pwm_2020p2_0_0_sim_netlist.v
@@ -3932,7 +3932,7 @@ module design_1_ip_pwm_2020p2_0_0_pwm
   CARRY4 \pwmCountR1_inferred__0/i__carry 
        (.CI(1'b0),
         .CO({\pwmCountR1_inferred__0/i__carry_n_0 ,\pwmCountR1_inferred__0/i__carry_n_1 ,\pwmCountR1_inferred__0/i__carry_n_2 ,\pwmCountR1_inferred__0/i__carry_n_3 }),
-        .CYINIT(1'b0),
+        .CYINIT(1'b1),
         .DI({i__carry_i_1_n_0,i__carry_i_2_n_0,i__carry_i_3_n_0,i__carry_i_4_n_0}),
         .O(\NLW_pwmCountR1_inferred__0/i__carry_O_UNCONNECTED [3:0]),
         .S({i__carry_i_5_n_0,i__carry_i_6_n_0,i__carry_i_7_n_0,i__carry_i_8_n_0}));
@@ -3964,7 +3964,7 @@ module design_1_ip_pwm_2020p2_0_0_pwm
   CARRY4 \pwmCountR1_inferred__1/i__carry 
        (.CI(1'b0),
         .CO({\pwmCountR1_inferred__1/i__carry_n_0 ,\pwmCountR1_inferred__1/i__carry_n_1 ,\pwmCountR1_inferred__1/i__carry_n_2 ,\pwmCountR1_inferred__1/i__carry_n_3 }),
-        .CYINIT(1'b0),
+        .CYINIT(1'b1),
         .DI({i__carry_i_1__1_n_0,i__carry_i_2__1_n_0,i__carry_i_3__1_n_0,i__carry_i_4__1_n_0}),
         .O(\NLW_pwmCountR1_inferred__1/i__carry_O_UNCONNECTED [3:0]),
         .S({i__carry_i_5__0_n_0,i__carry_i_6__0_n_0,i__carry_i_7__0_n_0,i__carry_i_8__0_n_0}));

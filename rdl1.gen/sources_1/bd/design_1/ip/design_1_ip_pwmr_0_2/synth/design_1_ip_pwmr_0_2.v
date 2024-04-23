@@ -52,7 +52,7 @@
 
 (* X_CORE_INFO = "ip_pwmr_v1_0,Vivado 2020.2" *)
 (* CHECK_LICENSE_TYPE = "design_1_ip_pwmr_0_2,ip_pwmr_v1_0,{}" *)
-(* CORE_GENERATION_INFO = "design_1_ip_pwmr_0_2,ip_pwmr_v1_0,{x_ipProduct=Vivado 2020.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=ip_pwmr,x_ipVersion=1.0,x_ipCoreRevision=4,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=6,SAMPLING_COUNT=10}" *)
+(* CORE_GENERATION_INFO = "design_1_ip_pwmr_0_2,ip_pwmr_v1_0,{x_ipProduct=Vivado 2020.2,x_ipVendor=xilinx.com,x_ipLibrary=user,x_ipName=ip_pwmr,x_ipVersion=1.0,x_ipCoreRevision=4,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,C_S00_AXI_DATA_WIDTH=32,C_S00_AXI_ADDR_WIDTH=6,SAMPLING_COUNT=0}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_ip_pwmr_0_2 (
   pwmIn,
@@ -130,7 +130,7 @@ input wire s00_axi_rready;
   ip_pwmr_v1_0 #(
     .C_S00_AXI_DATA_WIDTH(32),  // Width of S_AXI data bus
     .C_S00_AXI_ADDR_WIDTH(6),  // Width of S_AXI address bus
-    .SAMPLING_COUNT(10)
+    .SAMPLING_COUNT(0)
   ) inst (
     .pwmIn(pwmIn),
     .s00_axi_aclk(s00_axi_aclk),

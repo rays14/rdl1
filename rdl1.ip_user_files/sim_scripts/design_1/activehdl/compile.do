@@ -138,9 +138,9 @@ vcom -work xil_defaultlib -93 \
 
 vlog -work xil_defaultlib  -v2k5 "+incdir+../../../../rdl1.gen/sources_1/bd/design_1/ipshared/ec67/hdl" "+incdir+../../../../rdl1.gen/sources_1/bd/design_1/ipshared/34f8/hdl" "+incdir+C:/Xilinx/Vivado/2020.2/data/xilinx_vip/include" \
 "../../../bd/design_1/ip/design_1_gpio_breakkout_0_1/sim/design_1_gpio_breakkout_0_1.v" \
-"../../../bd/design_1/ipshared/ab05/hdl/ip_pwm_2020p2_v1_0_S00_AXI.v" \
-"../../../bd/design_1/ipshared/ab05/src/pwm.v" \
-"../../../bd/design_1/ipshared/ab05/hdl/ip_pwm_2020p2_v1_0.v" \
+"../../../bd/design_1/ipshared/ff19/hdl/ip_pwm_2020p2_v1_0_S00_AXI.v" \
+"../../../bd/design_1/ipshared/ff19/src/pwm.v" \
+"../../../bd/design_1/ipshared/ff19/hdl/ip_pwm_2020p2_v1_0.v" \
 "../../../bd/design_1/ip/design_1_ip_pwm_2020p2_0_0/sim/design_1_ip_pwm_2020p2_0_0.v" \
 "../../../bd/design_1/ip/design_1_ip_pwm_2020p2_0_1/sim/design_1_ip_pwm_2020p2_0_1.v" \
 "../../../bd/design_1/ip/design_1_ip_pwm_2020p2_0_2/sim/design_1_ip_pwm_2020p2_0_2.v" \

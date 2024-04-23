@@ -91,9 +91,9 @@
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_gpio_breakkout_0_1/sim/design_1_gpio_breakkout_0_1.v" \
-  "../../../bd/design_1/ipshared/ab05/hdl/ip_pwm_2020p2_v1_0_S00_AXI.v" \
-  "../../../bd/design_1/ipshared/ab05/src/pwm.v" \
-  "../../../bd/design_1/ipshared/ab05/hdl/ip_pwm_2020p2_v1_0.v" \
+  "../../../bd/design_1/ipshared/ff19/hdl/ip_pwm_2020p2_v1_0_S00_AXI.v" \
+  "../../../bd/design_1/ipshared/ff19/src/pwm.v" \
+  "../../../bd/design_1/ipshared/ff19/hdl/ip_pwm_2020p2_v1_0.v" \
   "../../../bd/design_1/ip/design_1_ip_pwm_2020p2_0_0/sim/design_1_ip_pwm_2020p2_0_0.v" \
   "../../../bd/design_1/ip/design_1_ip_pwm_2020p2_0_1/sim/design_1_ip_pwm_2020p2_0_1.v" \
   "../../../bd/design_1/ip/design_1_ip_pwm_2020p2_0_2/sim/design_1_ip_pwm_2020p2_0_2.v" \

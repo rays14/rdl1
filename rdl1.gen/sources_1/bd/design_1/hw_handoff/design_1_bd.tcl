@@ -239,15 +239,27 @@ proc create_root_design { parentCell } {
 
   # Create instance: ip_pwmr_0, and set properties
   set ip_pwmr_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:ip_pwmr:1.0 ip_pwmr_0 ]
+  set_property -dict [ list \
+   CONFIG.SAMPLING_COUNT {0} \
+ ] $ip_pwmr_0
 
   # Create instance: ip_pwmr_1, and set properties
   set ip_pwmr_1 [ create_bd_cell -type ip -vlnv xilinx.com:user:ip_pwmr:1.0 ip_pwmr_1 ]
+  set_property -dict [ list \
+   CONFIG.SAMPLING_COUNT {0} \
+ ] $ip_pwmr_1
 
   # Create instance: ip_pwmr_2, and set properties
   set ip_pwmr_2 [ create_bd_cell -type ip -vlnv xilinx.com:user:ip_pwmr:1.0 ip_pwmr_2 ]
+  set_property -dict [ list \
+   CONFIG.SAMPLING_COUNT {0} \
+ ] $ip_pwmr_2
 
   # Create instance: ip_pwmr_3, and set properties
   set ip_pwmr_3 [ create_bd_cell -type ip -vlnv xilinx.com:user:ip_pwmr:1.0 ip_pwmr_3 ]
+  set_property -dict [ list \
+   CONFIG.SAMPLING_COUNT {0} \
+ ] $ip_pwmr_3
 
   # Create instance: processing_system7_0, and set properties
   set processing_system7_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:processing_system7:5.5 processing_system7_0 ]

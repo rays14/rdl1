@@ -1,7 +1,7 @@
 Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
-| Date             : Sun Apr 21 14:40:11 2024
+| Date             : Tue Apr 23 11:16:40 2024
 | Host             : LAPTOP-KMHA882Q running 64-bit major release  (build 9200)
 | Command          : report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
 | Design           : design_1_wrapper
@@ -53,14 +53,14 @@ Table of Contents
 | On-Chip                 | Power (W) | Used     | Available | Utilization (%) |
 +-------------------------+-----------+----------+-----------+-----------------+
 | Clocks                  |     0.014 |        3 |       --- |             --- |
-| Slice Logic             |     0.003 |     9783 |       --- |             --- |
-|   LUT as Logic          |     0.002 |     2852 |     17600 |           16.20 |
-|   CARRY4                |    <0.001 |      291 |      4400 |            6.61 |
-|   Register              |    <0.001 |     5454 |     35200 |           15.49 |
+| Slice Logic             |     0.003 |     9723 |       --- |             --- |
+|   LUT as Logic          |     0.002 |     2822 |     17600 |           16.03 |
+|   CARRY4                |    <0.001 |      283 |      4400 |            6.43 |
+|   Register              |    <0.001 |     5434 |     35200 |           15.44 |
 |   F7/F8 Muxes           |    <0.001 |      177 |     17600 |            1.01 |
 |   LUT as Shift Register |    <0.001 |       72 |      6000 |            1.20 |
 |   Others                |     0.000 |      252 |       --- |             --- |
-| Signals                 |     0.006 |     7718 |       --- |             --- |
+| Signals                 |     0.006 |     7686 |       --- |             --- |
 | I/O                     |     0.002 |       13 |       100 |           13.00 |
 | PS7                     |     1.521 |        1 |       --- |             --- |
 | Static Power            |     0.120 |          |           |                 |
@@ -152,8 +152,8 @@ Table of Contents
 +--------------------------+-----------+
 | design_1_wrapper         |     1.546 |
 |   design_1_i             |     1.544 |
-|     ip_imu_2020p2_0      |     0.003 |
-|       inst               |     0.003 |
+|     ip_imu_2020p2_0      |     0.004 |
+|       inst               |     0.004 |
 |     ip_pwm_2020p2_0      |     0.001 |
 |       inst               |     0.001 |
 |     ip_pwm_2020p2_1      |     0.001 |

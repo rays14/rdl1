@@ -1,7 +1,7 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
--- Date        : Thu Apr 18 13:37:22 2024
+-- Date        : Tue Apr 23 11:12:16 2024
 -- Host        : LAPTOP-KMHA882Q running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim -rename_top design_1_ip_pwm_2020p2_0_3 -prefix
 --               design_1_ip_pwm_2020p2_0_3_ design_1_ip_pwm_2020p2_0_0_sim_netlist.vhdl
@@ -2079,7 +2079,7 @@ begin
       CO(2) => \pwmCountR1_inferred__0/i__carry_n_1\,
       CO(1) => \pwmCountR1_inferred__0/i__carry_n_2\,
       CO(0) => \pwmCountR1_inferred__0/i__carry_n_3\,
-      CYINIT => '0',
+      CYINIT => '1',
       DI(3) => \i__carry_i_1_n_0\,
       DI(2) => \i__carry_i_2_n_0\,
       DI(1) => \i__carry_i_3_n_0\,
@@ -2151,7 +2151,7 @@ begin
       CO(2) => \pwmCountR1_inferred__1/i__carry_n_1\,
       CO(1) => \pwmCountR1_inferred__1/i__carry_n_2\,
       CO(0) => \pwmCountR1_inferred__1/i__carry_n_3\,
-      CYINIT => '0',
+      CYINIT => '1',
       DI(3) => \i__carry_i_1__1_n_0\,
       DI(2) => \i__carry_i_2__1_n_0\,
       DI(1) => \i__carry_i_3__1_n_0\,

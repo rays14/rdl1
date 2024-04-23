@@ -73,63 +73,55 @@ struct pwmr_t throttleIn;
 enum fsm_t {UP = 0, DOWN = 1};
 enum fsm_t fsm = UP;
 
+/* Control outputs */
 u32 fin0 = 0;
 u32 fin1 = 0;
 u32 fin2 = 0;
 u32 fin3 = 0;
 u32 mtr0 = 0;
 
+/* Stick inputs */
+u32 pitch    = 0;
+u32 roll     = 0;
+u32 yaw      = 0;
+u32 throttle = 0;
+
+/* IMU feedback */
+u32 preamble   = 0;
+u32 idx        = 0;
+u32 pitchAngle = 0;
+u32 rollAngle  = 0;
+u32 yawAngle   = 0;
+u32 accelX     = 0;
+u32 accelY     = 0;
+u32 accelZ     = 0;
+
+/* Test UART */
 XGpio xGpioInst;
 XGpio_Config *xGpioConfigInst;
 XUartLite xUartLiteInst;
 XUartLite_Config *xUartLiteConfigInst;
 enum imuIdx {
-	IDX = 2,
-	YAW = 3,
-	PITCH = 5,
-	ROLL = 7
+    IDX   = 2,
+    YAW   = 3,
+    PITCH = 5,
+    ROLL  = 7
 };
-u8 xUartLiteData[19] = {0xAA, 0xAA,
-		                0x01,
-						0x02, 0x03, /* yaw    */
-						0x04, 0x05, /* pitch  */
-						0x06, 0x07, /* roll   */
-						0x08, 0x09, /* accelX */
-						0x0A, 0x0B, /* accelY */
-						0x0C, 0x0D, /* accelZ */
-						0x0E,       /* mi     */
-						0x0F,       /* mr     */
-						0x10,       /* rsvd   */
-						0x11        /* csum   */
-                       };
-u32 toggle = 0;
-u32 idxData;
-
-/*
-int XGpio_Initialize(XGpio *InstancePtr, u16 DeviceId);
-XGpio_Config *XGpio_LookupConfig(u16 DeviceId);
-int XGpio_CfgInitialize(XGpio *InstancePtr, XGpio_Config * Config,
-			UINTPTR EffectiveAddr);
-void XGpio_SetDataDirection(XGpio *InstancePtr, unsigned Channel,
-			    u32 DirectionMask);
-u32 XGpio_GetDataDirection(XGpio *InstancePtr, unsigned Channel);
-u32 XGpio_DiscreteRead(XGpio *InstancePtr, unsigned Channel);
-void XGpio_DiscreteWrite(XGpio *InstancePtr, unsigned Channel, u32 Mask);
-void XGpio_DiscreteSet(XGpio *InstancePtr, unsigned Channel, u32 Mask);
-void XGpio_DiscreteClear(XGpio *InstancePtr, unsigned Channel, u32 Mask);
-
-
-int XUartLite_Initialize(XUartLite *InstancePtr, u16 DeviceId);
-XUartLite_Config *XUartLite_LookupConfig(u16 DeviceId);
-int XUartLite_CfgInitialize(XUartLite *InstancePtr,
-				XUartLite_Config *Config,
-				UINTPTR EffectiveAddr);
-void XUartLite_ResetFifos(XUartLite *InstancePtr);
-unsigned int XUartLite_Send(XUartLite *InstancePtr, u8 *DataBufferPtr,
-				unsigned int NumBytes);
-unsigned int XUartLite_Recv(XUartLite *InstancePtr, u8 *DataBufferPtr,
-				unsigned int NumBytes);
-*/
+u8 xUartLiteData[19] = {
+    0xAA, 0xAA, /* preamble */
+    0x01,       /* idx      */
+    0x02, 0x03, /* yaw      */
+    0x04, 0x05, /* pitch    */
+    0x06, 0x07, /* roll     */
+    0x08, 0x09, /* accelX   */
+    0x0A, 0x0B, /* accelY   */
+    0x0C, 0x0D, /* accelZ   */
+    0x0E,       /* mi       */
+    0x0F,       /* mr       */
+    0x10,       /* rsvd     */
+    0x11        /* csum     */
+};
+u32 toggle  = 0;
 
 int main() {
     init_platform();
@@ -151,83 +143,101 @@ int main() {
     pwmInit(&fin2Out, FIN_2_PWM_ADDR, 0, PWM_PERIOD, 1);
     pwmInit(&fin3Out, FIN_3_PWM_ADDR, 0, PWM_PERIOD, 1);
     pwmInit(&mtr0Out, MTR_0_PWM_ADDR, 0, PWM_PERIOD, 1);
+
     pwmrInit(&pitchIn, PITCH_Y_PWMR_ADDR, PWMR_PERIOD);
     pwmrInit(&rollIn, ROLL_X_PWMR_ADDR, PWMR_PERIOD);
     pwmrInit(&yawIn, YAW_Z_PWMR_ADDR, PWMR_PERIOD);
     pwmrInit(&throttleIn, THROTTLE_PWMR_ADDR, PWMR_PERIOD);
+    pwmrSetPeriod(&pitchIn, PWMR_PERIOD);
+    pwmrSetPeriod(&rollIn, PWMR_PERIOD);
+    pwmrSetPeriod(&yawIn, PWMR_PERIOD);
+    pwmrSetPeriod(&throttleIn, PWMR_PERIOD);
 
     while (1) {
-    	print("Hello World\n\r");
-    	print("Successfully ran Hello World application\n");
+        print("Hello World\n\r");
+        print("Successfully ran Hello World application\n");
 
-    	/* Inputs - Receiver */
+        /* Inputs - Receiver */
+        pitch    = pwmrGetMeasure(&pitchIn);
+        roll     = pwmrGetMeasure(&rollIn);
+        yaw      = pwmrGetMeasure(&yawIn);
+        throttle = pwmrGetMeasure(&throttleIn);
 
-    	/* Inputs - IMU */
+        /* Inputs - IMU */
+        *(u32 *)0x43C90000 |= 0x00000001;    /* Set lock. */
+        usleep(1);                           /* Wait for lock to set - should set in 10ns. */
+        preamble   = *(u32 *)0x43C90008;
+        idx        = *(u32 *)0x43C9000C;
+        pitchAngle = *(u32 *)0x43C90010;
+        rollAngle  = *(u32 *)0x43C90014;
+        yawAngle   = *(u32 *)0x43C90018;
+        accelX     = *(u32 *)0x43C9001C;
+        accelY     = *(u32 *)0x43C90020;
+        accelZ     = *(u32 *)0x43C90024;
+        *(u32 *)0x43C90000 &= ~(0x00000001); /* Clear lock. */
 
-    	/* Control Algorithm */
-    	switch (fsm) {
-    	case UP:
-    		fin0++;
-    		fin1++;
-    		fin2++;
-    		fin3++;
-    		mtr0++;
-    		if (fin0 == 1000) {
-    			fsm = DOWN;
-    		}
-    		break;
-    	case DOWN:
-    		fin0--;
-    		fin1--;
-    		fin2--;
-    		fin3--;
-    		mtr0--;
-    		if (fin0 == 0) {
-    			fsm = UP;
-    		}
-    		break;
-    	default:
-    		break;
-    	}
+        /* Control Algorithm */
+        switch (fsm) {
+        case UP:
+            fin0++;
+            fin1++;
+            fin2++;
+            fin3++;
+            mtr0++;
+            if (fin0 == 1000) {
+                fsm = DOWN;
+            }
+            break;
+        case DOWN:
+            fin0--;
+            fin1--;
+            fin2--;
+            fin3--;
+            mtr0--;
+            if (fin0 == 0) {
+                fsm = UP;
+            }
+            break;
+        default:
+            break;
+        }
 
-    	/* Outputs */
+        /* Outputs */
 
-    	/* XUARTLITE test data */
-    	xUartLiteData[IDX] = xUartLiteData[IDX] + 1;;
+        /* XUARTLITE test data */
+        xUartLiteData[IDX] = xUartLiteData[IDX] + 1;;
         XUartLite_ResetFifos(&xUartLiteInst);
         int bytesSent = 0;
         int bytesToSend = 19;
 
         while (bytesToSend != 0) {
-        	bytesSent =+ XUartLite_Send(&xUartLiteInst, &xUartLiteData[bytesSent], bytesToSend);
-        	bytesToSend -= bytesSent;
-        	usleep(1000);
+            bytesSent =+ XUartLite_Send(&xUartLiteInst, &xUartLiteData[bytesSent], bytesToSend);
+            bytesToSend -= bytesSent;
+            usleep(1000);
         }
 
-    	//if (*(u32 *)0x43C90004 == 0x00000002) {
-    	//	*(u32 *)0x43C90000 |= 0x00000002; // dataRdyClearIn
-    	//}
-    	//*(u32 *)0x43C90000 = 0x00000000; // dataRdyClearIn
+        //if (*(u32 *)0x43C90004 == 0x00000002) {
+        //    *(u32 *)0x43C90000 |= 0x00000002; // dataRdyClearIn
+        //}
+        //*(u32 *)0x43C90000 = 0x00000000; // dataRdyClearIn
 
+        printf("Bytes Sent = %d\n", bytesSent);
 
+        /* PWM */
+        pwmSetOn(&fin0Out, fin0);
+        pwmSetOn(&fin1Out, fin1);
+        pwmSetOn(&fin2Out, fin2);
+        pwmSetOn(&fin3Out, fin3);
+        pwmSetOn(&mtr0Out, mtr0);
 
-    	idxData = *(u32 *)0x43C9000C;
-    	printf("Bytes Sent = %d\n", bytesSent);
-    	/* PWM */
-    	pwmSetOn(&fin0Out, fin0);
-    	pwmSetOn(&fin1Out, fin1);
-    	pwmSetOn(&fin2Out, fin2);
-    	pwmSetOn(&fin3Out, fin3);
-    	pwmSetOn(&mtr0Out, mtr0);
+        /* PWM register update sync */
+        XGpio_DiscreteSet(&xGpioInst, PWM_CHANNEL, 0x0000001F);
 
-    	/* PWM register update sync */
-    	XGpio_DiscreteSet(&xGpioInst, PWM_CHANNEL, 0x0000001F);
+        /* 10 ms sleep, this should simulate the IMU timing. */
+        usleep(10000);
 
-    	/* 10 ms sleep, this should simulate the IMU timing. */
-    	usleep(100000);
-
-    	/* PWM register update sync */
-    	XGpio_DiscreteClear(&xGpioInst, PWM_CHANNEL, 0x0000001F);
+        /* PWM register update sync */
+        XGpio_DiscreteClear(&xGpioInst, PWM_CHANNEL, 0x0000001F);
     }
     cleanup_platform();
 

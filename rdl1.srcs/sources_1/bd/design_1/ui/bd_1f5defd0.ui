@@ -1,12 +1,12 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"0.368445",
-   "Default View_TopLeft":"-4068,-866",
+   "Default View_ScaleFactor":"1.41772",
+   "Default View_TopLeft":"-707,-540",
    "ExpandedHierarchyInLayout":"",
    "commentid":"",
    "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
 #  -string -flagsOSRD
-preplace port uart_rtl -pg 1 -lvl 7 -x 3520 -y 1704 -defaultsOSRD
+preplace port uart_rtl -pg 1 -lvl 7 -x 3520 -y 220 -defaultsOSRD
 preplace port hbOut -pg 1 -lvl 7 -x 3520 -y -110 -defaultsOSRD
 preplace port fin1Out -pg 1 -lvl 7 -x 3520 -y -70 -defaultsOSRD
 preplace port fin2Out -pg 1 -lvl 7 -x 3520 -y -30 -defaultsOSRD
@@ -31,50 +31,50 @@ preplace inst ip_pwmr_2 -pg 1 -lvl 1 -x 50 -y 20 -defaultsOSRD
 preplace inst ip_pwmr_3 -pg 1 -lvl 1 -x 50 -y 210 -defaultsOSRD
 preplace inst axi_gpio_0 -pg 1 -lvl 1 -x 50 -y 550 -defaultsOSRD
 preplace inst gpio_breakkout_0 -pg 1 -lvl 2 -x 370 -y 520 -defaultsOSRD
+preplace inst axi_uartlite_0 -pg 1 -lvl 1 -x 50 -y 730 -defaultsOSRD
+preplace inst ip_imu_2020p2_0 -pg 1 -lvl 1 -x 50 -y 380 -defaultsOSRD
 preplace inst ip_pwm_2020p2_0 -pg 1 -lvl 4 -x 1010 -y -90 -defaultsOSRD
 preplace inst ip_pwm_2020p2_1 -pg 1 -lvl 4 -x 1010 -y 70 -defaultsOSRD
 preplace inst ip_pwm_2020p2_2 -pg 1 -lvl 4 -x 1010 -y 230 -defaultsOSRD
 preplace inst ip_pwm_2020p2_3 -pg 1 -lvl 4 -x 1010 -y 390 -defaultsOSRD
 preplace inst ip_pwm_2020p2_4 -pg 1 -lvl 4 -x 1010 -y 550 -defaultsOSRD
-preplace inst axi_uartlite_0 -pg 1 -lvl 1 -x 50 -y 730 -defaultsOSRD
-preplace inst ip_imu_2020p2_0 -pg 1 -lvl 1 -x 50 -y 380 -defaultsOSRD
-preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 -1030 120 180 130 N 130 740 -600 1290 -420 1750
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 6 -1030 120 190 130 N 130 730 -620 1290 -590 1760
 preplace netloc processing_system7_0_FCLK_RESET0_N 1 3 2 800 -320 1200
-preplace netloc hb_0_hbOut 1 4 3 1220 -220 1670 110 2270
-preplace netloc xlconstant_0_dout 1 3 1 720 -220n
-preplace netloc ip_pwm_2020p2_0_pwmOut 1 4 3 N -90 1660 100 2280
-preplace netloc ip_pwm_2020p2_1_pwmOut 1 4 3 N 70 1650 120 2290
-preplace netloc ip_pwm_2020p2_2_pwmOut 1 4 3 N 230 N 230 2300
-preplace netloc ip_pwm_2020p2_3_pwmOut 1 4 3 N 390 N 390 2320
-preplace netloc ip_pwm_2020p2_4_pwmOut 1 4 3 1260 130 N 130 2310
-preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 6 -1020 470 190 420 N 420 710 -620 NJ -620 1740
+preplace netloc hb_0_hbOut 1 4 3 1200 -220 1670 110 2250
+preplace netloc xlconstant_0_dout 1 3 1 710 -220n
+preplace netloc ip_pwm_2020p2_0_pwmOut 1 4 3 N -90 1660 100 2260
+preplace netloc ip_pwm_2020p2_1_pwmOut 1 4 3 N 70 1650 120 2270
+preplace netloc ip_pwm_2020p2_2_pwmOut 1 4 3 1220 150 N 150 2280
+preplace netloc ip_pwm_2020p2_3_pwmOut 1 4 3 1300 160 N 160 2300
+preplace netloc ip_pwm_2020p2_4_pwmOut 1 4 3 1260 130 N 130 2290
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 0 6 -1020 470 200 420 N 420 740 -610 1300J -430 1750
 preplace netloc rollIn_1 1 0 1 N -330
 preplace netloc pitchIn_1 1 0 1 N -160
 preplace netloc yawIn_1 1 0 1 N 10
 preplace netloc throttleIn_1 1 0 1 N 200
 preplace netloc imuRxIn_1 1 0 1 N 370
-preplace netloc axi_gpio_0_gpio_io_o 1 1 1 180 540n
-preplace netloc gpio_breakkout_0_data0Out 1 2 2 490 -150 730J
+preplace netloc axi_gpio_0_gpio_io_o 1 1 1 190 540n
+preplace netloc gpio_breakkout_0_data0Out 1 2 2 490 -150 720J
 preplace netloc gpio_breakkout_0_data1Out 1 2 2 500 60 NJ
 preplace netloc gpio_breakkout_0_data2Out 1 2 2 510 220 NJ
 preplace netloc gpio_breakkout_0_data3Out 1 2 2 520 380 NJ
-preplace netloc gpio_breakkout_0_data4Out 1 2 2 NJ 560 720
+preplace netloc gpio_breakkout_0_data4Out 1 2 2 NJ 560 710
 preplace netloc axi_uartlite_0_tx 1 1 6 N 740 NJ 740 NJ 740 NJ 740 NJ 740 NJ
 preplace netloc uartRxIn_1 1 0 2 -1060J 820 190
-preplace netloc ps7_0_axi_periph_M10_AXI 1 0 7 -1000 -520 NJ -520 NJ -520 NJ -520 1210J 90 NJ 90 2200
-preplace netloc ps7_0_axi_periph_M04_AXI 1 3 4 750 -560 1270J -440 1690J 30 2170
+preplace netloc ps7_0_axi_periph_M10_AXI 1 0 7 -1070 -670 NJ -670 NJ -670 NJ -670 NJ -670 NJ -670 2210
+preplace netloc ps7_0_axi_periph_M04_AXI 1 3 4 790 -550 1260J -440 1700J 40 2170
 preplace netloc ps7_0_axi_periph_M06_AXI 1 0 7 -1050 -680 NJ -680 N -680 NJ -680 NJ -680 NJ -680 2220
-preplace netloc processing_system7_0_M_AXI_GP0 1 4 2 1250J -480 1730
-preplace netloc ps7_0_axi_periph_M01_AXI 1 3 4 770 -580 1300J -460 1730J 10 2190
-preplace netloc ps7_0_axi_periph_M00_AXI 1 3 4 760 -590 1310J -470 1700J 70 2260
-preplace netloc ps7_0_axi_periph_M09_AXI 1 0 7 -1010 -530 NJ -530 N -530 NJ -530 1230J 60 NJ 60 2160
-preplace netloc ps7_0_axi_periph_M07_AXI 1 0 7 -990 -540 NJ -540 N -540 NJ -540 1240J 80 NJ 80 2250
-preplace netloc ps7_0_axi_periph_M02_AXI 1 3 4 780 -570 1280J -450 1710J 20 2180
+preplace netloc processing_system7_0_M_AXI_GP0 1 4 2 1230J -490 1740
+preplace netloc ps7_0_axi_periph_M01_AXI 1 3 4 760 -580 1310J -470 1730J 20 2190
+preplace netloc ps7_0_axi_periph_M00_AXI 1 3 4 750 -590 1200J -480 1740J 10 2200
+preplace netloc ps7_0_axi_periph_M09_AXI 1 0 7 -990 -530 NJ -530 N -530 NJ -530 1210J 90 NJ 90 2220
+preplace netloc ps7_0_axi_periph_M07_AXI 1 0 7 -1010 -600 NJ -600 N -600 NJ -600 1250J 80 NJ 80 2230
+preplace netloc ps7_0_axi_periph_M02_AXI 1 3 4 770 -570 1280J -460 1710J 50 2240
 preplace netloc ps7_0_axi_periph_M05_AXI 1 0 7 -1060 -690 NJ -690 N -690 NJ -690 NJ -690 NJ -690 2230
-preplace netloc ps7_0_axi_periph_M03_AXI 1 3 4 790 -550 1260J -430 1680J 50 2240
-preplace netloc ps7_0_axi_periph_M08_AXI 1 0 7 -1040 -610 NJ -610 N -610 NJ -610 NJ -610 1720J 40 2150
-preplace netloc axi_uartlite_0_UART 1 1 6 NJ 700 NJ 700 NJ 700 NJ 700 NJ 700 2230J
-preplace netloc ps7_0_axi_periph_M11_AXI 1 0 7 -1070 -670 NJ -670 NJ -670 NJ -670 NJ -670 NJ -670 2210
+preplace netloc ps7_0_axi_periph_M03_AXI 1 3 4 780 -560 1270J -450 1720J 30 2180
+preplace netloc ps7_0_axi_periph_M08_AXI 1 0 7 -1000 -540 NJ -540 N -540 NJ -540 1220J 60 NJ 60 2160
+preplace netloc axi_uartlite_0_UART 1 1 6 180J -630 NJ -630 NJ -630 NJ -630 1690J 220 NJ
+preplace netloc ps7_0_axi_periph_M11_AXI 1 0 7 -1040 -520 NJ -520 NJ -520 NJ -520 1240J -420 1680J 70 2150
 levelinfo -pg 1 -1090 50 370 630 1010 1480 2010 3520
 pagesize -pg 1 -db -bbox -sgen -1220 -700 3660 1780
 "

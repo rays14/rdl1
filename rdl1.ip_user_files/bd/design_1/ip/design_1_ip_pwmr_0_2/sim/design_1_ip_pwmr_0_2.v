@@ -129,7 +129,7 @@ input wire s00_axi_rready;
   ip_pwmr_v1_0 #(
     .C_S00_AXI_DATA_WIDTH(32),  // Width of S_AXI data bus
     .C_S00_AXI_ADDR_WIDTH(6),  // Width of S_AXI address bus
-    .SAMPLING_COUNT(10)
+    .SAMPLING_COUNT(0)
   ) inst (
     .pwmIn(pwmIn),
     .s00_axi_aclk(s00_axi_aclk),

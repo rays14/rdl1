@@ -1,7 +1,7 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
--- Date        : Mon Apr  8 10:51:57 2024
+-- Date        : Tue Apr 23 10:22:09 2024
 -- Host        : LAPTOP-KMHA882Q running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_ip_pwmr_2_0 -prefix
 --               design_1_ip_pwmr_2_0_ design_1_ip_pwmr_0_0_stub.vhdl

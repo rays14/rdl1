@@ -2,17 +2,17 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Mon Apr  8 10:52:02 2024
-# Process ID: 2536
+# Start of session at: Tue Apr 23 10:22:18 2024
+# Process ID: 58140
 # Current directory: C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/design_1_ip_pwmr_0_1_synth_1
 # Command line: vivado.exe -log design_1_ip_pwmr_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ip_pwmr_0_1.tcl
 # Log file: C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/design_1_ip_pwmr_0_1_synth_1/design_1_ip_pwmr_0_1.vds
 # Journal file: C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/design_1_ip_pwmr_0_1_synth_1\vivado.jou
 #-----------------------------------------------------------
 source design_1_ip_pwmr_0_1.tcl -notrace
-create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1153.785 ; gain = 0.000
+create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1134.633 ; gain = 0.000
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/14086/Documents/topper/projs/git/github/rtl/projs/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
-INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_ip_pwmr_0_1, cache-ID = d7e0f73bdc26c377.
-INFO: [Common 17-206] Exiting Vivado at Mon Apr  8 10:52:20 2024...
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_ip_pwmr_0_1, cache-ID = 88153f017e67590b.
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 23 10:22:35 2024...

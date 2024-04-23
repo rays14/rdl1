@@ -11374,3 +11374,1743 @@ TRACE::2024-04-21.14:48:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documen
 C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
 
 TRACE::2024-04-21.14:48:22::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:15:54::SCWPlatform::Clearing the existing platform
+TRACE::2024-04-23.10:15:54::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-04-23.10:15:54::SCWBDomain::clearing the fsbl build
+TRACE::2024-04-23.10:15:54::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:54::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:15:54::SCWSystem::Clearing the domains completed.
+TRACE::2024-04-23.10:15:54::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-04-23.10:15:54::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:54::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:54::SCWPlatform:: Platform location is C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:54::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:54::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:54::SCWPlatform::Removing the HwDB with name C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:54::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:54::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:54::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:54::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:54::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:54::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:54::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened new HwDB with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWReader::Active system found as  rdl1
+TRACE::2024-04-23.10:15:55::SCWReader::Handling sysconfig rdl1
+TRACE::2024-04-23.10:15:55::SCWDomain::checking for install qemu data   : 
+TRACE::2024-04-23.10:15:55::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-04-23.10:15:55::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:15:55::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:15:55::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-04-23.10:15:55::SCWMssOS::No sw design opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::mss exists loading the mss file  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::Opened the sw design from mss  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::Adding the swdes entry C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-04-23.10:15:55::SCWMssOS::updating the scw layer about changes
+TRACE::2024-04-23.10:15:55::SCWMssOS::Opened the sw design.  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:15:55::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:15:55::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS:: library already available in sw design:  xilffs:4.4
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:15:55::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:15:55::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2024-04-23.10:15:55::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:15:55::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:15:55::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:15:55::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-04-23.10:15:55::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:15:55::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:15:55::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWReader::No isolation master present  
+TRACE::2024-04-23.10:15:55::SCWDomain::checking for install qemu data   : 
+TRACE::2024-04-23.10:15:55::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-04-23.10:15:55::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:15:55::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:15:55::SCWMssOS::No sw design opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::mss exists loading the mss file  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::Opened the sw design from mss  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::Adding the swdes entry C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-04-23.10:15:55::SCWMssOS::updating the scw layer about changes
+TRACE::2024-04-23.10:15:55::SCWMssOS::Opened the sw design.  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:15:55::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:15:55::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:15:55::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-04-23.10:15:55::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:55::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:15:55::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:15:55::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:15:55::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:15:55::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:15:55::SCWReader::No isolation master present  
+TRACE::2024-04-23.10:15:59::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:59::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:59::SCWPlatform:: Platform location is C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa
+TRACE::2024-04-23.10:15:59::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:15:59::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:01::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2024-04-23.10:16:01::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:16:01::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:01::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:16:01::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:01::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:16:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:16:01::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:16:01::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:01::SCWPlatform::update - Opened existing hwdb design_1_wrapper_8
+TRACE::2024-04-23.10:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:01::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2024-04-23.10:16:01::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:16:01::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:01::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:01::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_7
+TRACE::2024-04-23.10:16:01::SCWPlatform::Opened existing hwdb design_1_wrapper_7
+TRACE::2024-04-23.10:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:01::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:01::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:16:01::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:01::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:01::SCWPlatform::update - Opened existing hwdb design_1_wrapper_8
+TRACE::2024-04-23.10:16:01::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:01::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:16:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:16:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:16:01::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:16:01::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2024-04-23.10:16:01::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:16:01::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:01::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:16:01::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:16:01::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:16:01::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2024-04-23.10:16:01::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:01::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:01::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:01::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-23.10:16:02::SCWPlatform::Opened new HwDB with name design_1_wrapper_9
+TRACE::2024-04-23.10:16:02::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:16:02::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-04-23.10:16:02::SCWMssOS::Writing the mss file completed C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:16:02::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:16:02::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:02::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-04-23.10:16:02::SCWMssOS::Writing the mss file completed C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:02::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:16:02::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:02::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:02::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:02::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:16:02::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:02::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2024-04-23.10:16:02::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2024-04-23.10:16:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:02::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:16:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:16:02::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:16:02::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:02::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:02::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:02::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:16:02::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:02::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2024-04-23.10:16:02::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2024-04-23.10:16:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:02::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:16:02::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:02::SCWWriter::formatted JSON is {
+	"platformName":	"rdl1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"rdl1",
+	"platHandOff":	"C:/Users/14086/Documents/topper/projs/git/github/rdl1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"rdl1",
+	"systems":	[{
+			"systemName":	"rdl1",
+			"systemDesc":	"rdl1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"rdl1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"35eb8f3c3750c222074b429156dd1fc9",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"669efee3fb767185c66766a0d81c91a4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-04-23.10:16:14::SCWPlatform::Started generating the artifacts platform rdl1
+TRACE::2024-04-23.10:16:14::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-23.10:16:14::SCWPlatform::Started generating the artifacts for system configuration rdl1
+LOG::2024-04-23.10:16:14::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-04-23.10:16:14::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-04-23.10:16:14::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-04-23.10:16:14::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2024-04-23.10:16:14::SCWSystem::Checking the domain standalone_domain
+LOG::2024-04-23.10:16:14::SCWSystem::Not a boot domain 
+LOG::2024-04-23.10:16:14::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-04-23.10:16:14::SCWDomain::Generating domain artifcats
+TRACE::2024-04-23.10:16:14::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-23.10:16:14::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/export/rdl1/sw/rdl1/qemu/
+TRACE::2024-04-23.10:16:14::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/export/rdl1/sw/rdl1/standalone_domain/qemu/
+TRACE::2024-04-23.10:16:14::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-23.10:16:14::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:14::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:14::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:14::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:16:14::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:14::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2024-04-23.10:16:14::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2024-04-23.10:16:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:14::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:16:14::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:14::SCWMssOS::Completed writing the mss file at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-04-23.10:16:14::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:14::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-23.10:16:14::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-23.10:16:14::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-04-23.10:16:14::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-04-23.10:16:14::SCWMssOS::Copying to export directory.
+TRACE::2024-04-23.10:16:15::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-23.10:16:15::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-23.10:16:15::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-04-23.10:16:15::SCWSystem::Completed Processing the sysconfig rdl1
+LOG::2024-04-23.10:16:15::SCWPlatform::Completed generating the artifacts for system configuration rdl1
+TRACE::2024-04-23.10:16:15::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-23.10:16:15::SCWSystem::Writing the bif file for system config rdl1
+TRACE::2024-04-23.10:16:15::SCWSystem::dir created 
+TRACE::2024-04-23.10:16:15::SCWSystem::Writing the bif 
+TRACE::2024-04-23.10:16:15::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-23.10:16:15::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-23.10:16:15::SCWPlatform::Completed generating the platform
+TRACE::2024-04-23.10:16:15::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:16:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:16:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:16:15::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:16:15::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:15::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:16:15::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:16:15::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:16:15::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:16:15::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2024-04-23.10:16:15::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2024-04-23.10:16:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:15::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:16:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:16:15::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:16:15::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:16:15::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2024-04-23.10:16:15::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2024-04-23.10:16:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:15::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:16:15::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:15::SCWWriter::formatted JSON is {
+	"platformName":	"rdl1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"rdl1",
+	"platHandOff":	"C:/Users/14086/Documents/topper/projs/git/github/rdl1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"rdl1",
+	"systems":	[{
+			"systemName":	"rdl1",
+			"systemDesc":	"rdl1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"rdl1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"35eb8f3c3750c222074b429156dd1fc9",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"669efee3fb767185c66766a0d81c91a4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-23.10:16:15::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-23.10:16:15::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:16:15::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:16:15::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:16:15::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_9
+TRACE::2024-04-23.10:16:15::SCWPlatform::Opened existing hwdb design_1_wrapper_9
+TRACE::2024-04-23.10:16:15::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:16:15::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:16:15::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:16:15::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:58:56::SCWPlatform::Clearing the existing platform
+TRACE::2024-04-23.10:58:56::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-04-23.10:58:56::SCWBDomain::clearing the fsbl build
+TRACE::2024-04-23.10:58:56::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:56::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:58:56::SCWSystem::Clearing the domains completed.
+TRACE::2024-04-23.10:58:56::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-04-23.10:58:56::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:56::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:56::SCWPlatform:: Platform location is C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:56::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:56::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:56::SCWPlatform::Removing the HwDB with name C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:56::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:56::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:56::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:56::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:56::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:56::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:56::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened new HwDB with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWReader::Active system found as  rdl1
+TRACE::2024-04-23.10:58:57::SCWReader::Handling sysconfig rdl1
+TRACE::2024-04-23.10:58:57::SCWDomain::checking for install qemu data   : 
+TRACE::2024-04-23.10:58:57::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-04-23.10:58:57::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:58:57::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:58:57::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-04-23.10:58:57::SCWMssOS::No sw design opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::mss exists loading the mss file  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::Opened the sw design from mss  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::Adding the swdes entry C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-04-23.10:58:57::SCWMssOS::updating the scw layer about changes
+TRACE::2024-04-23.10:58:57::SCWMssOS::Opened the sw design.  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:58:57::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:58:57::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS:: library already available in sw design:  xilffs:4.4
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:58:57::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:58:57::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2024-04-23.10:58:57::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:58:57::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:58:57::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:58:57::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-04-23.10:58:57::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:58:57::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:58:57::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWReader::No isolation master present  
+TRACE::2024-04-23.10:58:57::SCWDomain::checking for install qemu data   : 
+TRACE::2024-04-23.10:58:57::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-04-23.10:58:57::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:58:57::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:58:57::SCWMssOS::No sw design opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::mss exists loading the mss file  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::Opened the sw design from mss  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::Adding the swdes entry C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-04-23.10:58:57::SCWMssOS::updating the scw layer about changes
+TRACE::2024-04-23.10:58:57::SCWMssOS::Opened the sw design.  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:58:57::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:58:57::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:58:57::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-04-23.10:58:57::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:58:57::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:58:57::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:58:57::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:58:57::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:58:57::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:58:57::SCWReader::No isolation master present  
+TRACE::2024-04-23.10:59:01::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:01::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:01::SCWPlatform:: Platform location is C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa
+TRACE::2024-04-23.10:59:01::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:01::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:02::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2024-04-23.10:59:02::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:59:02::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:59:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:02::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:59:02::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:59:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:02::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:59:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:59:02::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:59:02::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:02::SCWPlatform::update - Opened existing hwdb design_1_wrapper_12
+TRACE::2024-04-23.10:59:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:02::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2024-04-23.10:59:02::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:59:02::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:59:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:02::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:02::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_11
+TRACE::2024-04-23.10:59:02::SCWPlatform::Opened existing hwdb design_1_wrapper_11
+TRACE::2024-04-23.10:59:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:02::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:02::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:59:02::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:02::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:02::SCWPlatform::update - Opened existing hwdb design_1_wrapper_12
+TRACE::2024-04-23.10:59:02::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:02::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:59:02::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:59:02::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:59:02::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:59:02::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2024-04-23.10:59:02::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:59:02::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:02::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:59:02::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:59:02::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:59:02::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2024-04-23.10:59:02::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:02::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:02::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:02::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-23.10:59:04::SCWPlatform::Opened new HwDB with name design_1_wrapper_13
+TRACE::2024-04-23.10:59:04::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:59:04::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-04-23.10:59:04::SCWMssOS::Writing the mss file completed C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:59:04::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:59:04::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:04::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-04-23.10:59:04::SCWMssOS::Writing the mss file completed C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:04::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:59:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:59:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_13
+TRACE::2024-04-23.10:59:04::SCWPlatform::Opened existing hwdb design_1_wrapper_13
+TRACE::2024-04-23.10:59:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:04::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:59:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:59:04::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:59:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:59:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_13
+TRACE::2024-04-23.10:59:04::SCWPlatform::Opened existing hwdb design_1_wrapper_13
+TRACE::2024-04-23.10:59:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:04::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:59:04::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:04::SCWWriter::formatted JSON is {
+	"platformName":	"rdl1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"rdl1",
+	"platHandOff":	"C:/Users/14086/Documents/topper/projs/git/github/rdl1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"rdl1",
+	"systems":	[{
+			"systemName":	"rdl1",
+			"systemDesc":	"rdl1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"rdl1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"35eb8f3c3750c222074b429156dd1fc9",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"669efee3fb767185c66766a0d81c91a4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-04-23.10:59:13::SCWPlatform::Started generating the artifacts platform rdl1
+TRACE::2024-04-23.10:59:13::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-23.10:59:13::SCWPlatform::Started generating the artifacts for system configuration rdl1
+LOG::2024-04-23.10:59:13::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-04-23.10:59:14::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-04-23.10:59:14::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-04-23.10:59:14::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2024-04-23.10:59:14::SCWSystem::Checking the domain standalone_domain
+LOG::2024-04-23.10:59:14::SCWSystem::Not a boot domain 
+LOG::2024-04-23.10:59:14::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-04-23.10:59:14::SCWDomain::Generating domain artifcats
+TRACE::2024-04-23.10:59:14::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-23.10:59:14::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/export/rdl1/sw/rdl1/qemu/
+TRACE::2024-04-23.10:59:14::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/export/rdl1/sw/rdl1/standalone_domain/qemu/
+TRACE::2024-04-23.10:59:14::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-23.10:59:14::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:59:14::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_13
+TRACE::2024-04-23.10:59:14::SCWPlatform::Opened existing hwdb design_1_wrapper_13
+TRACE::2024-04-23.10:59:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:14::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:59:14::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:14::SCWMssOS::Completed writing the mss file at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-04-23.10:59:14::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:14::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-23.10:59:14::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-23.10:59:14::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-04-23.10:59:14::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-04-23.10:59:14::SCWMssOS::Copying to export directory.
+TRACE::2024-04-23.10:59:14::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-23.10:59:14::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-23.10:59:14::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-04-23.10:59:14::SCWSystem::Completed Processing the sysconfig rdl1
+LOG::2024-04-23.10:59:14::SCWPlatform::Completed generating the artifacts for system configuration rdl1
+TRACE::2024-04-23.10:59:14::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-23.10:59:14::SCWSystem::Writing the bif file for system config rdl1
+TRACE::2024-04-23.10:59:14::SCWSystem::dir created 
+TRACE::2024-04-23.10:59:14::SCWSystem::Writing the bif 
+TRACE::2024-04-23.10:59:14::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-23.10:59:14::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-23.10:59:14::SCWPlatform::Completed generating the platform
+TRACE::2024-04-23.10:59:14::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:59:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:59:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:59:14::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:59:14::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:14::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.10:59:14::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.10:59:14::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.10:59:14::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:59:14::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_13
+TRACE::2024-04-23.10:59:14::SCWPlatform::Opened existing hwdb design_1_wrapper_13
+TRACE::2024-04-23.10:59:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:14::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:59:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:59:14::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.10:59:14::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:59:14::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_13
+TRACE::2024-04-23.10:59:14::SCWPlatform::Opened existing hwdb design_1_wrapper_13
+TRACE::2024-04-23.10:59:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:14::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:59:14::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:14::SCWWriter::formatted JSON is {
+	"platformName":	"rdl1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"rdl1",
+	"platHandOff":	"C:/Users/14086/Documents/topper/projs/git/github/rdl1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"rdl1",
+	"systems":	[{
+			"systemName":	"rdl1",
+			"systemDesc":	"rdl1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"rdl1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"35eb8f3c3750c222074b429156dd1fc9",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"669efee3fb767185c66766a0d81c91a4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-23.10:59:14::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-23.10:59:14::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.10:59:14::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.10:59:14::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.10:59:14::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_13
+TRACE::2024-04-23.10:59:14::SCWPlatform::Opened existing hwdb design_1_wrapper_13
+TRACE::2024-04-23.10:59:14::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.10:59:14::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.10:59:14::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.10:59:14::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:03::SCWPlatform::Clearing the existing platform
+TRACE::2024-04-23.11:19:03::SCWSystem::Clearing the existing sysconfig
+TRACE::2024-04-23.11:19:03::SCWBDomain::clearing the fsbl build
+TRACE::2024-04-23.11:19:03::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:03::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:03::SCWSystem::Clearing the domains completed.
+TRACE::2024-04-23.11:19:03::SCWPlatform::Clearing the opened hw db.
+TRACE::2024-04-23.11:19:03::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:03::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:03::SCWPlatform:: Platform location is C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:03::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:03::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:03::SCWPlatform::Removing the HwDB with name C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:03::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:03::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:03::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:03::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:03::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:03::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:03::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened new HwDB with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWReader::Active system found as  rdl1
+TRACE::2024-04-23.11:19:04::SCWReader::Handling sysconfig rdl1
+TRACE::2024-04-23.11:19:04::SCWDomain::checking for install qemu data   : 
+TRACE::2024-04-23.11:19:04::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-04-23.11:19:04::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:04::SCWReader::Boot application domain added for zynq_fsbl
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:04::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::DEBUG:  swdes dump  
+TRACE::2024-04-23.11:19:04::SCWMssOS::No sw design opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::mss exists loading the mss file  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::Opened the sw design from mss  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::Adding the swdes entry C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-04-23.11:19:04::SCWMssOS::updating the scw layer about changes
+TRACE::2024-04-23.11:19:04::SCWMssOS::Opened the sw design.  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:04::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:04::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS:: library already available in sw design:  xilffs:4.4
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:04::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:04::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS:: library already available in sw design:  xilrsa:1.6
+TRACE::2024-04-23.11:19:04::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.11:19:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.11:19:04::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.11:19:04::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-04-23.11:19:04::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:04::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:04::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWReader::No isolation master present  
+TRACE::2024-04-23.11:19:04::SCWDomain::checking for install qemu data   : 
+TRACE::2024-04-23.11:19:04::SCWDomain:: Using the QEMU Data from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/
+TRACE::2024-04-23.11:19:04::SCWDomain:: Using the QEMU args  from install at  : C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:04::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:04::SCWMssOS::No sw design opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::mss exists loading the mss file  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::Opened the sw design from mss  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::Adding the swdes entry C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-04-23.11:19:04::SCWMssOS::updating the scw layer about changes
+TRACE::2024-04-23.11:19:04::SCWMssOS::Opened the sw design.  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.11:19:04::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.11:19:04::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.11:19:04::SCWReader::Adding prebuilt librarypaths as   
+TRACE::2024-04-23.11:19:04::SCWReader::Adding prebuilt incpaths  as   
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:04::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:04::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:04::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:04::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:04::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:04::SCWReader::No isolation master present  
+TRACE::2024-04-23.11:19:08::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:08::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:08::SCWPlatform:: Platform location is C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa
+TRACE::2024-04-23.11:19:08::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:08::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:10::SCWMssOS::Doing hw sync for the mss in domain: zynq_fsbl
+TRACE::2024-04-23.11:19:10::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:10::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:10::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:10::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:10::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:10::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:10::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:10::SCWPlatform::update - Opened existing hwdb design_1_wrapper_16
+TRACE::2024-04-23.11:19:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:10::SCWMssOS::Doing hw sync for the mss in domain: standalone_domain
+TRACE::2024-04-23.11:19:10::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:10::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:10::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:10::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_15
+TRACE::2024-04-23.11:19:10::SCWPlatform::Opened existing hwdb design_1_wrapper_15
+TRACE::2024-04-23.11:19:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:10::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:10::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:10::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:10::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/tempdsa/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:10::SCWPlatform::update - Opened existing hwdb design_1_wrapper_16
+TRACE::2024-04-23.11:19:10::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:10::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.11:19:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.11:19:10::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.11:19:10::SCWMssOS::Completed hw sync for the mss in domain: zynq_fsbl
+TRACE::2024-04-23.11:19:10::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:10::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:10::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.11:19:10::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.11:19:10::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.11:19:10::SCWMssOS::Completed hw sync for the mss in domain: standalone_domain
+TRACE::2024-04-23.11:19:10::SCWMssOS::Removing the swdes entry for  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:10::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:10::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:10::SCWPlatform::Do not have an existing db opened. 
+TRACE::2024-04-23.11:19:12::SCWPlatform::Opened new HwDB with name design_1_wrapper_17
+TRACE::2024-04-23.11:19:12::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:12::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss with des name system
+TRACE::2024-04-23.11:19:12::SCWMssOS::Writing the mss file completed C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:12::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.11:19:12::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:12::SCWMssOS::Adding the swdes entry, mss present, able to open swdb C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss with des name system_0
+TRACE::2024-04-23.11:19:12::SCWMssOS::Writing the mss file completed C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:12::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.11:19:12::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:12::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:12::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:12::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:12::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:12::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_17
+TRACE::2024-04-23.11:19:12::SCWPlatform::Opened existing hwdb design_1_wrapper_17
+TRACE::2024-04-23.11:19:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:12::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:12::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:12::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:12::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:12::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:12::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:12::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:12::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:12::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_17
+TRACE::2024-04-23.11:19:12::SCWPlatform::Opened existing hwdb design_1_wrapper_17
+TRACE::2024-04-23.11:19:12::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:12::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:12::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:12::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:12::SCWWriter::formatted JSON is {
+	"platformName":	"rdl1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"rdl1",
+	"platHandOff":	"C:/Users/14086/Documents/topper/projs/git/github/rdl1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"rdl1",
+	"systems":	[{
+			"systemName":	"rdl1",
+			"systemDesc":	"rdl1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"rdl1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"35eb8f3c3750c222074b429156dd1fc9",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"669efee3fb767185c66766a0d81c91a4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+LOG::2024-04-23.11:19:22::SCWPlatform::Started generating the artifacts platform rdl1
+TRACE::2024-04-23.11:19:22::SCWPlatform::Sanity checking of platform is completed
+LOG::2024-04-23.11:19:22::SCWPlatform::Started generating the artifacts for system configuration rdl1
+LOG::2024-04-23.11:19:22::SCWSystem::Checking the domain zynq_fsbl
+LOG::2024-04-23.11:19:22::SCWSystem::Doing application build for :  zynq_fsbl
+TRACE::2024-04-23.11:19:22::SCWBDomain::Not a forced makefile updation, No changes are present. 
+TRACE::2024-04-23.11:19:22::SCWDomain::Skipping the build for domain :  zynq_fsbl
+LOG::2024-04-23.11:19:22::SCWSystem::Checking the domain standalone_domain
+LOG::2024-04-23.11:19:22::SCWSystem::Not a boot domain 
+LOG::2024-04-23.11:19:22::SCWSystem::Started Processing the domain standalone_domain
+TRACE::2024-04-23.11:19:22::SCWDomain::Generating domain artifcats
+TRACE::2024-04-23.11:19:22::SCWMssOS::Generating standalone artifcats
+TRACE::2024-04-23.11:19:22::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/export/rdl1/sw/rdl1/qemu/
+TRACE::2024-04-23.11:19:22::SCWMssOS::Copying the qemu file from  C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt To C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/export/rdl1/sw/rdl1/standalone_domain/qemu/
+TRACE::2024-04-23.11:19:22::SCWMssOS:: Copying the user libraries. 
+TRACE::2024-04-23.11:19:22::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:22::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:22::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:22::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:22::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:22::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:22::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_17
+TRACE::2024-04-23.11:19:22::SCWPlatform::Opened existing hwdb design_1_wrapper_17
+TRACE::2024-04-23.11:19:22::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:22::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:22::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:22::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:22::SCWMssOS::Completed writing the mss file at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp
+TRACE::2024-04-23.11:19:22::SCWMssOS::Mss edits present, copying mssfile into export location C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:22::SCWMssOS::bsp generated is upto date with the mss file. Skipping bsp generation.
+TRACE::2024-04-23.11:19:22::SCWMssOS::BSP is already built. skipping the bsp build ... 
+TRACE::2024-04-23.11:19:22::SCWDomain::Skipping the build for domain :  standalone_domain
+TRACE::2024-04-23.11:19:22::SCWMssOS::skipping the bsp build ... 
+TRACE::2024-04-23.11:19:22::SCWMssOS::Copying to export directory.
+TRACE::2024-04-23.11:19:23::SCWMssOS:: Checking if to create the Supporting Applications
+TRACE::2024-04-23.11:19:23::SCWMssOS:: No Linux domain exists, trying to generate FSBL 
+LOG::2024-04-23.11:19:23::SCWSystem::Completed Processing the domain standalone_domain
+LOG::2024-04-23.11:19:23::SCWSystem::Completed Processing the sysconfig rdl1
+LOG::2024-04-23.11:19:23::SCWPlatform::Completed generating the artifacts for system configuration rdl1
+TRACE::2024-04-23.11:19:23::SCWPlatform::Started preparing the platform 
+TRACE::2024-04-23.11:19:23::SCWSystem::Writing the bif file for system config rdl1
+TRACE::2024-04-23.11:19:23::SCWSystem::dir created 
+TRACE::2024-04-23.11:19:23::SCWSystem::Writing the bif 
+TRACE::2024-04-23.11:19:23::SCWPlatform::Started writing the spfm file 
+TRACE::2024-04-23.11:19:23::SCWPlatform::Started writing the xpfm file 
+TRACE::2024-04-23.11:19:23::SCWPlatform::Completed generating the platform
+TRACE::2024-04-23.11:19:23::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.11:19:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.11:19:23::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.11:19:23::SCWMssOS::Saving the mss changes C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:23::SCWMssOS::Found a swdesign opened with the mssfile.
+TRACE::2024-04-23.11:19:23::SCWMssOS::Completed writemss as part of save.
+TRACE::2024-04-23.11:19:23::SCWMssOS::Commit changes completed.
+TRACE::2024-04-23.11:19:23::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:23::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_17
+TRACE::2024-04-23.11:19:23::SCWPlatform::Opened existing hwdb design_1_wrapper_17
+TRACE::2024-04-23.11:19:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:23::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:23::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss
+TRACE::2024-04-23.11:19:23::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:23::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_17
+TRACE::2024-04-23.11:19:23::SCWPlatform::Opened existing hwdb design_1_wrapper_17
+TRACE::2024-04-23.11:19:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:23::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:23::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:23::SCWWriter::formatted JSON is {
+	"platformName":	"rdl1",
+	"sprVersion":	"2.0",
+	"mode":	"gui",
+	"dsaType":	"Fixed",
+	"platformDesc":	"rdl1",
+	"platHandOff":	"C:/Users/14086/Documents/topper/projs/git/github/rdl1/design_1_wrapper.xsa",
+	"platIntHandOff":	"<platformDir>/hw/design_1_wrapper.xsa",
+	"deviceType":	"zynq",
+	"platIsPrebuiltAutogen":	"false",
+	"platIsNoBootBsp":	"false",
+	"hasFsblMakeHasChanges":	"false",
+	"hasPmufwMakeHasChanges":	"false",
+	"fsblExtraCompilerFlags":	"-MMD -MP       -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard ",
+	"platPreBuiltFlag":	false,
+	"platformSamplesDir":	"",
+	"platActiveSys":	"rdl1",
+	"systems":	[{
+			"systemName":	"rdl1",
+			"systemDesc":	"rdl1",
+			"sysIsBootAutoGen":	"true",
+			"systemDispName":	"rdl1",
+			"sysActiveDom":	"standalone_domain",
+			"sysDefaultDom":	"standalone_domain",
+			"domains":	[{
+					"domainName":	"zynq_fsbl",
+					"domainDispName":	"zynq_fsbl",
+					"domainDesc":	"FSBL Application BSP - Auto Generated.",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"debugEnable":	"",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"35eb8f3c3750c222074b429156dd1fc9",
+					"compatibleApp":	"zynq_fsbl",
+					"domType":	"bootDomain",
+					"arch":	"32-bit",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	["xilffs:4.4", "xilrsa:1.6"],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}, {
+					"domainName":	"standalone_domain",
+					"domainDispName":	"standalone on ps7_cortexa9_0",
+					"domainDesc":	"standalone_domain",
+					"processors":	"ps7_cortexa9_0",
+					"os":	"standalone",
+					"sdxOs":	"standalone",
+					"qemuArgs":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/qemu_args.txt",
+					"qemuData":	"C:/Xilinx/Vitis/2020.2/data/emulation/platforms/zynq/sw/a9_standalone/qemu/",
+					"debugEnable":	"False",
+					"domRuntimes":	["cpp"],
+					"swRepo":	"",
+					"mssOsVer":	"7.3",
+					"mssFile":	"",
+					"md5Digest":	"669efee3fb767185c66766a0d81c91a4",
+					"compatibleApp":	"",
+					"domType":	"mssDomain",
+					"appSettings":	{
+						"appCompilerFlags":	"",
+						"appLinkerFlags":	""
+					},
+					"addedLibs":	[],
+					"libOptions":	{
+						"libsContainingOptions":	[]
+					},
+					"prebuiltLibs":	{
+						"prebuiltIncPath":	[],
+						"prebuiltLibPath":	[]
+					},
+					"isolation":	{
+					}
+				}]
+		}]
+}
+KEYINFO::2024-04-23.11:19:23::SCWPlatform::updated the xpfm file.
+TRACE::2024-04-23.11:19:23::SCWPlatform::Trying to open the hw design at C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform::DSA given C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform::DSA absoulate path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform::DSA directory C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw
+TRACE::2024-04-23.11:19:23::SCWPlatform:: Platform Path C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/hw/design_1_wrapper.xsa
+TRACE::2024-04-23.11:19:23::SCWPlatform:: Unique name xilinx:zybo::0.0
+TRACE::2024-04-23.11:19:23::SCWPlatform::Trying to set the existing hwdb with name design_1_wrapper_17
+TRACE::2024-04-23.11:19:23::SCWPlatform::Opened existing hwdb design_1_wrapper_17
+TRACE::2024-04-23.11:19:23::SCWPlatform::Found the Hw Db part of the input DSA
+TRACE::2024-04-23.11:19:23::SCWMssOS::Checking the sw design at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss
+TRACE::2024-04-23.11:19:23::SCWMssOS::DEBUG:  swdes dump  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss|system_0||
+C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/zynq_fsbl/zynq_fsbl_bsp/system.mss|system||
+
+TRACE::2024-04-23.11:19:23::SCWMssOS::Sw design exists and opened at  C:/Users/14086/Documents/topper/projs/git/github/rdl1/sw/rdl1/ps7_cortexa9_0/standalone_domain/bsp/system.mss

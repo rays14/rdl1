@@ -2,8 +2,8 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Sun Apr 21 14:36:46 2024
-# Process ID: 16696
+# Start of session at: Tue Apr 23 11:13:29 2024
+# Process ID: 50720
 # Current directory: C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1
 # Command line: vivado.exe -log design_1_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_wrapper.tcl
 # Log file: C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/design_1_wrapper.vds
@@ -13,7 +13,7 @@ source design_1_wrapper.tcl -notrace
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/14086/Documents/topper/projs/git/github/rtl/projs/ip_repo'.
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
-add_files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 1162.438 ; gain = 0.000
+add_files: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 1155.988 ; gain = 0.000
 Command: synth_design -top design_1_wrapper -part xc7z010clg400-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
@@ -21,44 +21,44 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 26764
+INFO: [Synth 8-7075] Helper process launched with PID 54360
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1233.641 ; gain = 71.203
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 1232.645 ; gain = 76.656
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_0_0' (1#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_uartlite_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_uartlite_0_0' (2#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_0_0' (1#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_axi_gpio_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_uartlite_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_uartlite_0_0' (2#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_axi_uartlite_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'interrupt' of module 'design_1_axi_uartlite_0_0' is unconnected for instance 'axi_uartlite_0' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:361]
 WARNING: [Synth 8-7023] instance 'axi_uartlite_0' of module 'design_1_axi_uartlite_0_0' has 22 connections declared, but only 21 given [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:361]
-INFO: [Synth 8-6157] synthesizing module 'design_1_gpio_breakkout_0_1' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_gpio_breakkout_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_gpio_breakkout_0_1' (3#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_gpio_breakkout_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_hb_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_hb_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_hb_0_0' (4#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_hb_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ip_imu_2020p2_0_1' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_imu_2020p2_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_imu_2020p2_0_1' (5#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_imu_2020p2_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwm_2020p2_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwm_2020p2_0_0' (6#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwm_2020p2_0_1' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwm_2020p2_0_1' (7#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwm_2020p2_0_2' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_2_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwm_2020p2_0_2' (8#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_2_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwm_2020p2_0_3' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_3_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwm_2020p2_0_3' (9#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_3_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwm_2020p2_0_4' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_4_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwm_2020p2_0_4' (10#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_4_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwmr_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwmr_0_0' (11#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwmr_0_1' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwmr_0_1' (12#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwmr_0_2' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_2_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwmr_0_2' (13#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_2_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwmr_2_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_2_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwmr_2_0' (14#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_2_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_processing_system7_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (15#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_gpio_breakkout_0_1' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_gpio_breakkout_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_gpio_breakkout_0_1' (3#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_gpio_breakkout_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_hb_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_hb_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_hb_0_0' (4#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_hb_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_imu_2020p2_0_1' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_imu_2020p2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_imu_2020p2_0_1' (5#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_imu_2020p2_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwm_2020p2_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwm_2020p2_0_0' (6#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwm_2020p2_0_1' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwm_2020p2_0_1' (7#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwm_2020p2_0_2' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwm_2020p2_0_2' (8#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwm_2020p2_0_3' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_3_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwm_2020p2_0_3' (9#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_3_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwm_2020p2_0_4' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwm_2020p2_0_4' (10#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwm_2020p2_0_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwmr_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwmr_0_0' (11#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwmr_0_1' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwmr_0_1' (12#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwmr_0_2' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwmr_0_2' (13#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_0_2_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ip_pwmr_2_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_2_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ip_pwmr_2_0' (14#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_ip_pwmr_2_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_processing_system7_0_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_processing_system7_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_processing_system7_0_0' (15#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_processing_system7_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'MIO' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:632]
 WARNING: [Synth 8-7071] port 'DDR_CAS_n' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:632]
 WARNING: [Synth 8-7071] port 'DDR_CKE' of module 'design_1_processing_system7_0_0' is unconnected for instance 'processing_system7_0' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:632]
@@ -107,16 +107,16 @@ INFO: [Synth 8-6155] done synthesizing module 'm10_couplers_imp_I40Q9S' (26#1) [
 INFO: [Synth 8-6157] synthesizing module 'm11_couplers_imp_1CATNTT' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:4535]
 INFO: [Synth 8-6155] done synthesizing module 'm11_couplers_imp_1CATNTT' (27#1) [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:4535]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_UYSKKA' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:4667]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (28#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (28#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_auto_pc_0_stub.v:6]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_UYSKKA' (29#1) [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:4667]
-INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (30#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_xbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (30#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_xbar_0_stub.v:6]
 WARNING: [Synth 8-689] width (30) of port connection 'm_axi_arprot' does not match port width (36) of module 'design_1_xbar_0' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:2904]
 WARNING: [Synth 8-689] width (30) of port connection 'm_axi_awprot' does not match port width (36) of module 'design_1_xbar_0' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:2908]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_ps7_0_axi_periph_0' (31#1) [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:976]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (32#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-16696-LAPTOP-KMHA882Q/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps7_0_100M_0' [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps7_0_100M_0' (32#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/.Xil/Vivado-50720-LAPTOP-KMHA882Q/realtime/design_1_rst_ps7_0_100M_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'mb_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:965]
 WARNING: [Synth 8-7071] port 'bus_struct_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:965]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'design_1_rst_ps7_0_100M_0' is unconnected for instance 'rst_ps7_0_100M' [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:965]
@@ -131,18 +131,18 @@ INFO: [Synth 8-6155] done synthesizing module 'design_1_xlconstant_0_0' (34#1) [
 INFO: [Synth 8-6155] done synthesizing module 'design_1' (35#1) [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/synth/design_1.v:13]
 INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (36#1) [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:10 . Memory (MB): peak = 1296.164 ; gain = 133.727
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1296.125 ; gain = 140.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1296.164 ; gain = 133.727
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1314.051 ; gain = 158.062
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1296.164 ; gain = 133.727
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1314.051 ; gain = 158.062
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.072 . Memory (MB): peak = 1296.164 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1314.051 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -169,6 +169,10 @@ Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen
 Finished Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0_in_context.xdc] for cell 'design_1_i/axi_gpio_0'
 Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_gpio_breakkout_0_1/design_1_gpio_breakkout_0_1/design_1_gpio_breakkout_0_1_in_context.xdc] for cell 'design_1_i/gpio_breakkout_0'
 Finished Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_gpio_breakkout_0_1/design_1_gpio_breakkout_0_1/design_1_gpio_breakkout_0_1_in_context.xdc] for cell 'design_1_i/gpio_breakkout_0'
+Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
+Finished Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
+Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_imu_2020p2_0_1/design_1_ip_imu_2020p2_0_1/design_1_ip_imu_2020p2_0_1_in_context.xdc] for cell 'design_1_i/ip_imu_2020p2_0'
+Finished Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_imu_2020p2_0_1/design_1_ip_imu_2020p2_0_1/design_1_ip_imu_2020p2_0_1_in_context.xdc] for cell 'design_1_i/ip_imu_2020p2_0'
 Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_pwm_2020p2_0_0/design_1_ip_pwm_2020p2_0_0/design_1_ip_pwm_2020p2_0_0_in_context.xdc] for cell 'design_1_i/ip_pwm_2020p2_0'
 Finished Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_pwm_2020p2_0_0/design_1_ip_pwm_2020p2_0_0/design_1_ip_pwm_2020p2_0_0_in_context.xdc] for cell 'design_1_i/ip_pwm_2020p2_0'
 Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_pwm_2020p2_0_1/design_1_ip_pwm_2020p2_0_1/design_1_ip_pwm_2020p2_0_0_in_context.xdc] for cell 'design_1_i/ip_pwm_2020p2_1'
@@ -179,10 +183,6 @@ Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen
 Finished Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_pwm_2020p2_0_3/design_1_ip_pwm_2020p2_0_3/design_1_ip_pwm_2020p2_0_0_in_context.xdc] for cell 'design_1_i/ip_pwm_2020p2_3'
 Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_pwm_2020p2_0_4/design_1_ip_pwm_2020p2_0_4/design_1_ip_pwm_2020p2_0_0_in_context.xdc] for cell 'design_1_i/ip_pwm_2020p2_4'
 Finished Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_pwm_2020p2_0_4/design_1_ip_pwm_2020p2_0_4/design_1_ip_pwm_2020p2_0_0_in_context.xdc] for cell 'design_1_i/ip_pwm_2020p2_4'
-Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
-Finished Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0/design_1_axi_uartlite_0_0_in_context.xdc] for cell 'design_1_i/axi_uartlite_0'
-Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_imu_2020p2_0_1/design_1_ip_imu_2020p2_0_1/design_1_ip_imu_2020p2_0_1_in_context.xdc] for cell 'design_1_i/ip_imu_2020p2_0'
-Finished Parsing XDC File [c:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.gen/sources_1/bd/design_1/ip/design_1_ip_imu_2020p2_0_1/design_1_ip_imu_2020p2_0_1/design_1_ip_imu_2020p2_0_1_in_context.xdc] for cell 'design_1_i/ip_imu_2020p2_0'
 Parsing XDC File [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.srcs/constrs_1/imports/digilent-xdc/Zybo-Master.xdc]
 WARNING: [Vivado 12-584] No ports matched 'clkIn'. [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.srcs/constrs_1/imports/digilent-xdc/Zybo-Master.xdc:8]
 WARNING: [Vivado 12-584] No ports matched 'clkIn'. [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.srcs/constrs_1/imports/digilent-xdc/Zybo-Master.xdc:9]
@@ -194,20 +194,20 @@ Parsing XDC File [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.run
 Finished Parsing XDC File [C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1333.316 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1349.715 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1333.316 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1349.715 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1333.316 ; gain = 170.879
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1349.715 ; gain = 193.727
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1333.316 ; gain = 170.879
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1349.715 ; gain = 193.727
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -226,18 +226,18 @@ Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ip_pwmr_2. (constraint
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ip_pwmr_3. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_gpio_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/gpio_breakkout_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_uartlite_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ip_imu_2020p2_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ip_pwm_2020p2_0. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ip_pwm_2020p2_1. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ip_pwm_2020p2_2. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ip_pwm_2020p2_3. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ip_pwm_2020p2_4. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/axi_uartlite_0. (constraint file  auto generated constraint).
-Applied set_property KEEP_HIERARCHY = SOFT for design_1_i/ip_imu_2020p2_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1333.316 ; gain = 170.879
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1349.715 ; gain = 193.727
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 1333.316 ; gain = 170.879
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:17 . Memory (MB): peak = 1349.715 ; gain = 193.727
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -259,25 +259,25 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 1333.316 ; gain = 170.879
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 1349.715 ; gain = 193.727
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1377.438 ; gain = 215.000
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 1381.805 ; gain = 225.816
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1378.105 ; gain = 215.668
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 1382.473 ; gain = 226.484
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:29 . Memory (MB): peak = 1397.766 ; gain = 235.328
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:26 . Memory (MB): peak = 1402.426 ; gain = 246.438
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -295,37 +295,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1402.500 ; gain = 240.062
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 1407.211 ; gain = 251.223
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1402.500 ; gain = 240.062
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 1407.211 ; gain = 251.223
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1402.500 ; gain = 240.062
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:30 . Memory (MB): peak = 1407.211 ; gain = 251.223
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1402.500 ; gain = 240.062
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1407.211 ; gain = 251.223
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1402.500 ; gain = 240.062
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1407.211 ; gain = 251.223
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1402.500 ; gain = 240.062
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1407.211 ; gain = 251.223
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -375,23 +375,23 @@ Report Cell Usage:
 |20    |OBUF                          |     7|
 +------+------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:33 . Memory (MB): peak = 1402.500 ; gain = 240.062
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:30 . Memory (MB): peak = 1407.211 ; gain = 251.223
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:30 . Memory (MB): peak = 1402.500 ; gain = 202.910
-Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:34 . Memory (MB): peak = 1402.500 ; gain = 240.062
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1407.211 ; gain = 215.559
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:31 . Memory (MB): peak = 1407.211 ; gain = 251.223
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.033 . Memory (MB): peak = 1414.574 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.034 . Memory (MB): peak = 1419.289 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1419.484 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1422.879 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
 88 Infos, 34 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:29 ; elapsed = 00:00:47 . Memory (MB): peak = 1419.484 ; gain = 257.047
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:42 . Memory (MB): peak = 1422.879 ; gain = 266.891
 INFO: [Common 17-1381] The checkpoint 'C:/Users/14086/Documents/topper/projs/git/github/rdl1/rdl1.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Apr 21 14:37:48 2024...
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 23 11:14:29 2024...
