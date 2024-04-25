@@ -154,19 +154,16 @@ int main() {
     pwmrSetPeriod(&throttleIn, PWMR_PERIOD);
 
     while (1) {
-
-#if 0
         print("Hello World\n\r");
         print("Successfully ran Hello World application\n");
-#endif
 
-        /* Inputs - Receiver (stick) */
+        /* Inputs - Receiver */
         pitch    = pwmrGetMeasure(&pitchIn);
         roll     = pwmrGetMeasure(&rollIn);
         yaw      = pwmrGetMeasure(&yawIn);
         throttle = pwmrGetMeasure(&throttleIn);
 
-        /* Inputs - IMU (sensor feedback) */
+        /* Inputs - IMU */
         *(u32 *)0x43C90000 |= 0x00000001;    /* Set lock. */
         usleep(1);                           /* Wait for lock to set - should set in 10ns. */
         preamble   = *(u32 *)0x43C90008;
@@ -219,9 +216,12 @@ int main() {
             usleep(1000);
         }
 
-#if 0
+        //if (*(u32 *)0x43C90004 == 0x00000002) {
+        //    *(u32 *)0x43C90000 |= 0x00000002; // dataRdyClearIn
+        //}
+        //*(u32 *)0x43C90000 = 0x00000000; // dataRdyClearIn
+
         printf("Bytes Sent = %d\n", bytesSent);
-#endif
 
         /* PWM */
         pwmSetOn(&fin0Out, fin0);

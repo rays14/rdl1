@@ -154,11 +154,8 @@ int main() {
     pwmrSetPeriod(&throttleIn, PWMR_PERIOD);
 
     while (1) {
-
-#if 0
         print("Hello World\n\r");
         print("Successfully ran Hello World application\n");
-#endif
 
         /* Inputs - Receiver (stick) */
         pitch    = pwmrGetMeasure(&pitchIn);
@@ -218,7 +215,6 @@ int main() {
             bytesToSend -= bytesSent;
             usleep(1000);
         }
-
 #if 0
         printf("Bytes Sent = %d\n", bytesSent);
 #endif

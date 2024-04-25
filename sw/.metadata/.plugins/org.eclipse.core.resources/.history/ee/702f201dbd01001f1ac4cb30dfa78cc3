@@ -154,11 +154,8 @@ int main() {
     pwmrSetPeriod(&throttleIn, PWMR_PERIOD);
 
     while (1) {
-
-#if 0
         print("Hello World\n\r");
         print("Successfully ran Hello World application\n");
-#endif
 
         /* Inputs - Receiver (stick) */
         pitch    = pwmrGetMeasure(&pitchIn);
@@ -219,9 +216,12 @@ int main() {
             usleep(1000);
         }
 
-#if 0
+        //if (*(u32 *)0x43C90004 == 0x00000002) {
+        //    *(u32 *)0x43C90000 |= 0x00000002; // dataRdyClearIn
+        //}
+        //*(u32 *)0x43C90000 = 0x00000000; // dataRdyClearIn
+
         printf("Bytes Sent = %d\n", bytesSent);
-#endif
 
         /* PWM */
         pwmSetOn(&fin0Out, fin0);
